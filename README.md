@@ -295,11 +295,3 @@ apt-config dump | grep Unattended
 ```bash
 systemctl --failed
 ```
-
----
-
-## Ссылки
-
-- [OpenSSH documentation](https://www.openssh.com/manual.html)
-- [UFW documentation](https://help.ubuntu.com/community/UFW)
-- [Fail2Ban documentation](https://www.fail2ban.org/wiki/index.php/Main_Page)
