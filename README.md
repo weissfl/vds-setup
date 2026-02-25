@@ -20,10 +20,12 @@ reboot
 
 Корректное время важно для логов, работы Fail2Ban и других сервисов, завязанных на тайминги.
 
-Устанавливает часовой пояс (пример — Вьетнам):
+Устанавливает часовой пояс:
 ```bash
 timedatectl set-timezone Asia/Ho_Chi_Minh
 ```
+
+Примеры часовых поясов: `UTC`, `Europe/London`, `Europe/Moscow`, `America/New_York`, `Asia/Bangkok`, `Asia/Kolkata`
 
 Показывает текущее состояние времени и таймзоны:
 ```bash
