@@ -32,6 +32,11 @@ timedatectl set-timezone Asia/Ho_Chi_Minh
 timedatectl status
 ```
 
+Включает синхронизацию времени через NTP:
+```bash
+systemctl enable --now systemd-timesyncd
+```
+
 ---
 
 ## 3. Установка базовых утилит и компонентов безопасности
