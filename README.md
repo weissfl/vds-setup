@@ -39,7 +39,7 @@ timedatectl status
 Минимальный набор пакетов для работы с сетью и репозиториями, базового firewall, защиты от брутфорса, git и механизма автоматических обновлений безопасности.
 
 ```bash
-apt install -y curl wget ufw fail2ban ca-certificates gnupg git unattended-upgrades
+apt install -y curl wget ufw fail2ban ca-certificates gnupg git unattended-upgrades haveged
 ```
 
 ---
