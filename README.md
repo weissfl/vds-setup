@@ -78,7 +78,7 @@ ssh-keygen --% -t ed25519
 
 Показать публичный ключ, который нужно скопировать:
 ```powershell
-type $env:USERPROFILE\.ssh\id_ed25519.pub
+Get-Content "$env:USERPROFILE\.ssh\id_ed25519.pub" | Set-Clipboard
 ```
 
 ---
