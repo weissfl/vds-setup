@@ -76,6 +76,7 @@ SSH-ключ используется для входа на сервер без
 ssh-keygen --% -t ed25519
 ```
 
+Автоматически копирует публичный ключ в буфер обмена:
 ```powershell
 Get-Content "$env:USERPROFILE\.ssh\id_ed25519.pub" | Set-Clipboard
 ```
