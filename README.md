@@ -27,14 +27,14 @@ timedatectl set-timezone Asia/Ho_Chi_Minh
 
 Примеры часовых поясов: `UTC`, `Europe/London`, `Europe/Moscow`, `America/New_York`, `Asia/Bangkok`, `Asia/Kolkata`
 
-Показывает текущее состояние времени и таймзоны:
-```bash
-timedatectl status
-```
-
 Включает синхронизацию времени через NTP:
 ```bash
 systemctl enable --now systemd-timesyncd
+```
+
+Показывает текущее состояние времени и таймзоны:
+```bash
+timedatectl status
 ```
 
 ---
